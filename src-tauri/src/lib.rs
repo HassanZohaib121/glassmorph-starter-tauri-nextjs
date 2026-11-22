@@ -21,7 +21,6 @@ pub fn run() {
                 .map_err(|e| format!("Failed to initialize database: {}", e))?;
 
             app.manage(db);
-            // Ok(());
             if cfg!(debug_assertions) {
                 app
                     .handle()
@@ -33,6 +32,9 @@ pub fn run() {
         })
         .invoke_handler(
             tauri::generate_handler![
+                // ==============================================
+                // Authentication commands
+                // ==============================================
                 auth::commands::get_setup_status,
                 auth::commands::setup_first_user,
 
@@ -55,6 +57,9 @@ pub fn run() {
                 auth::commands::revoke_role,
 
                 auth::commands::revoke_user_sessions
+                // ==============================================
+                //  commands
+                // ==============================================
             ]
         )
         .run(tauri::generate_context!())

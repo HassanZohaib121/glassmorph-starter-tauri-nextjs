@@ -44,16 +44,16 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       )}
     >
       <body className="relative flex min-h-screen flex-col overflow-hidden bg-transparent antialiased">
-        <div
-          aria-hidden="true"
-          className="glass-window pointer-events-none fixed inset-0"
-        />
-
-        <Titlebar />
-
-        <div className="relative z-10 min-h-0 flex-1 overflow-auto">
-          <TooltipProvider>{children}</TooltipProvider>
-        </div>
+        <TooltipProvider delayDuration={300}>
+          <div
+            aria-hidden="true"
+            className="glass-window pointer-events-none fixed inset-0"
+          />
+          <Titlebar />
+          <div className="relative z-10 min-h-0 flex-1 overflow-auto">
+            {children}
+          </div>
+        </TooltipProvider>
       </body>
     </html>
   );

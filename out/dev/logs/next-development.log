@@ -1,0 +1,16 @@
+{"timestamp":"00:00:08.942","source":"Server","level":"LOG","message":"- Cache Components enabled"}
+{"timestamp":"00:00:08.943","source":"Server","level":"LOG","message":"- Partial Prefetching enabled"}
+{"timestamp":"00:00:08.943","source":"Server","level":"LOG","message":"- Experiments (use with caution):"}
+{"timestamp":"00:00:08.944","source":"Server","level":"LOG","message":"  ✓ agentFeedback"}
+{"timestamp":"00:00:08.944","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:01:02.779","source":"Server","level":"LOG","message":"○ Compiling / ..."}
+{"timestamp":"00:02:22.631","source":"Server","level":"LOG","message":"✓ Finished writing to filesystem cache in 10.0s"}
+{"timestamp":"00:02:33.034","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:09:16.652","source":"Server","level":"LOG","message":"  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (0.5s elapsed so far; last modified: \"\\\\\\\\?\\\\D:\\\\Tauri\\\\glassmorph-starter-tauri-nextjs\\\\node_modules\\\\@next\")."}
+{"timestamp":"00:09:17.651","source":"Server","level":"LOG","message":"  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (1.5s elapsed so far; last modified: \"\\\\\\\\?\\\\D:\\\\Tauri\\\\glassmorph-starter-tauri-nextjs\\\\node_modules\\\\@types\")."}
+{"timestamp":"00:09:18.719","source":"Server","level":"LOG","message":"  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (0.5s elapsed so far; last modified: \"\\\\\\\\?\\\\D:\\\\Tauri\\\\glassmorph-starter-tauri-nextjs\\\\node_modules\\\\fs-extra\")."}
+{"timestamp":"00:09:19.719","source":"Server","level":"LOG","message":"  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (1.5s elapsed so far; last modified: \"\\\\\\\\?\\\\D:\\\\Tauri\\\\glassmorph-starter-tauri-nextjs\\\\node_modules\\\\lucide-react\\\\dist\\\\esm\\\\icons\\\\guitar.mjs.map\")."}
+{"timestamp":"00:09:21.720","source":"Server","level":"LOG","message":"  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (3.5s elapsed so far; last modified: \"\\\\\\\\?\\\\D:\\\\Tauri\\\\glassmorph-starter-tauri-nextjs\\\\node_modules\\\\next\\\\dist\\\\compiled\\\\@edge-runtime\\\\ponyfill\")."}
+{"timestamp":"00:09:27.612","source":"Server","level":"LOG","message":"  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (0.5s elapsed so far; last modified: \"\\\\\\\\?\\\\D:\\\\Tauri\\\\glassmorph-starter-tauri-nextjs\\\\src-tauri\\\\target\\\\debug\\\\.fingerprint\\\\flate2-23954bbd5b5529e0\\\\lib-flate2.json\")."}
+{"timestamp":"00:09:28.612","source":"Server","level":"LOG","message":"  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (1.5s elapsed so far; last modified: \"\\\\\\\\?\\\\D:\\\\Tauri\\\\glassmorph-starter-tauri-nextjs\\\\src-tauri\\\\target\\\\debug\\\\.fingerprint\\\\web_atoms-9f319deaca32beb1\\\\invoked.timestamp\")."}
+{"timestamp":"00:11:50.617","source":"Server","level":"LOG","message":"✓ Finished writing to filesystem cache in 14.8s"}
